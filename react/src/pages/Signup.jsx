@@ -8,8 +8,8 @@ export default function Signup() {
     const emailRef = useRef();
     const passwordRef = useRef();
     const passwordConfirmationRef = useRef();
-    const [errors, setErrors] = useState(null);
 
+    const [errors, setErrors] = useState(null);
     const { setUser, setToken } = useStateContext();
 
     const onSubmit = (e) => {
